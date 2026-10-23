@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/menu";
+const API_URL = "https://restaurant-menu-manager-fjjs.onrender.com/api/menu";
 
 export async function getMenuItems() {
   const response = await fetch(API_URL);
